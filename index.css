@@ -1,34 +1,35 @@
-
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
 }
-
-
-.normal___1LGbL {
-  font-family: Georgia, sans-serif;
-  margin-top: 3em;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.index___29MY4 {
+  width: 100%;
+  height: 100%;
+  background: url(/static/index-bg.eb5c13fc.jpg) no-repeat center 0;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.index___29MY4 .photo___1uAsC {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: url(http://oyvrltpxa.bkt.clouddn.com/avatar.jpg) no-repeat center 0;
+  background-size: 100% 100%;
+  margin: 100px auto;
+  margin-bottom: 10px;
+}
+.index___29MY4 h3 {
   text-align: center;
 }
-
-.title___jOezs {
-  font-size: 2.5rem;
-  font-weight: normal;
-  letter-spacing: -1px;
-}
-
-.welcome___996Bm {
-  height: 328px;
-  background: url(/static/yay.44dd3333.jpg) no-repeat center 0;
-  background-size: 388px 328px;
-}
-
-.list___2nMZI {
-  font-size: 1.2em;
-  margin-top: 1.8em;
-  list-style: none;
-  line-height: 1.5em;
-}
-
-.list___2nMZI code {
-  background: #f7f7f7;
+.index___29MY4 .welcome___16WtW {
+  font-size: 30px;
+  position: absolute;
+  bottom: 100px;
+  left: calc(50% - 145px);
 }
