@@ -18,9 +18,11 @@
         var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
         var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
         if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            // window.location.href='index.html'; //手机设备跳转到手机站主页
             window.location.href='./mobilePersonalSite/index.html'; //手机设备跳转到手机站主页
         } else {
-            window.location.href='./pcPersonalSite/index.html';
+            // window.location.href='index.html';
+            // window.location.href='./pcPersonalSite/index.html';
         }
     }
   
